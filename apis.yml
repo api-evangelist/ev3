@@ -1,8 +1,26 @@
 aid: ev3
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ev3.png
 name: EV3
-description: 'EV3 is a company surfaced as a portfolio company of multicoin-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Escape Velocity (EV3) is an early-stage crypto and web3 venture capital
+  firm based in New York, co-founded by Mahesh Ramakrishnan and Salvador Gala, that
+  backs founders building frontier-technology companies across programmable money,
+  programmable molecules, and programmable intelligence. EV3 writes early-stage checks
+  and concentrates on crypto-enabled and decentralized physical infrastructure (DePIN)
+  businesses spanning advertising and attention, credit and liquidity, machine maps,
+  and energy and bandwidth. Its funds have drawn backing from investors including
+  Multicoin Capital. EV3 is an investment firm rather than a product company and publishes
+  no public API or developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/ev3/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Crypto Web3
+- Venture Capital
+- Blockchain
+- DePIN
+- Investment
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,22 @@ maintainers:
 common:
 - type: Website
   url: https://ev3.xyz
+- type: Portfolio
+  url: https://ev3.xyz/portfolio/
+- type: Research
+  url: https://ev3.xyz/research/
+- type: Fellowship
+  url: https://fellowship.ev3.xyz
+- type: Analytics
+  url: https://analytics.ev3.xyz
+- type: LinkedIn
+  url: https://www.linkedin.com/company/escape-velocity-ev3
+- type: Twitter
+  url: https://x.com/ev3ventures
+- type: DomainSecurity
+  url: security/ev3-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
