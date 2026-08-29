@@ -33,6 +33,9 @@ description: 'Escape Velocity (EV3) is an early-stage crypto and web3 venture ca
   Multicoin Capital. EV3 is an investment firm rather than a product company and publishes
   no public API or developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/ev3/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "EV3 is an investment firm rather than a product company and publishes no public API or developer surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
